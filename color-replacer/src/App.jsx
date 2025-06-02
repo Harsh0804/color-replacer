@@ -76,7 +76,7 @@ function App() {
 
   return (
     <div style={{padding:20}}>
-      <h1>Image Color Tool</h1>
+      <h1> Image Colour replacer tool</h1>
       <input type="file" accept="image/*" onChange={handleUpload}/>
       {src && (
         <img ref={imgRef} src={src} crossOrigin="anonymous" onLoad={extractColors}
